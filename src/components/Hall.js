@@ -18,7 +18,7 @@ class Hall extends Component {
       doc.style.backgroundColor = color[i];
       i = (i + 1) % color.length;
     }
-    setInterval(change, 400);
+    setInterval(change, 4000);
         return(
            <div >
          <div style = {{height: "200px"}} id = "background" ></div> 
